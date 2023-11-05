@@ -1,0 +1,15 @@
+atsushitakayama@AtsushinoMacBook-Air git_kadai % mkdir git_challenge
+atsushitakayama@AtsushinoMacBook-Air git_kadai % cd git_challenge
+atsushitakayama@AtsushinoMacBook-Air git_challenge % git init
+Initialized empty Git repository in /Users/atsushitakayama/Desktop/git_kadai/git_challenge/.git/
+atsushitakayama@AtsushinoMacBook-Air git_challenge % git add hello_world.txt
+atsushitakayama@AtsushinoMacBook-Air git_challenge % git commit -m "日本語訳追加"
+[main (root-commit) a566bda] 日本語訳追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt
+atsushitakayama@AtsushinoMacBook-Air git_challenge % git status
+On branch main
+nothing to commit, working tree clean
+atsushitakayama@AtsushinoMacBook-Air git_challenge % git log --oneline
+a566bda (HEAD -> main) 日本語訳追加
+atsushitakayama@AtsushinoMacBook-Air git_challenge % 
